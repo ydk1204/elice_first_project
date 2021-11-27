@@ -29,7 +29,7 @@ function App() {
     };
 
     fetch(
-      `https://www.career.go.kr/inspct/openapi/test/questions?q=19&apikey=${apiKey}`,
+      "https://www.career.go.kr/inspct/openapi/test/questions?q=19&apikey=d6f3d4bf1ef57c0489ae941a704165e8",
       requestOptions
     )
       .then((response) => response.json())

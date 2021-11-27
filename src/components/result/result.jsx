@@ -66,7 +66,7 @@ const Result = (props) => {
     };
 
     fetch(
-      `https://www.career.go.kr/inspct/openapi/test/report?apikey=${apiKey}`,
+      "https://www.career.go.kr/inspct/openapi/test/report?apikey=d6f3d4bf1ef57c0489ae941a704165e8",
       requestOptions
     )
       .then((response) => response.json())
@@ -93,7 +93,7 @@ const Result = (props) => {
     };
 
     fetch(
-      `https://www.career.go.kr/inspct/api/psycho/report?seq=${custom}&apikey=${apiKey}`,
+      `https://www.career.go.kr/inspct/api/psycho/report?seq=${custom}&apikey=d6f3d4bf1ef57c0489ae941a704165e8`,
       requestOptions
     )
       .then((response) => response.json())
@@ -112,7 +112,7 @@ const Result = (props) => {
     };
 
     fetch(
-      `https://www.career.go.kr/inspct/api/psycho/interest/elementary/juniors?apikey=${apiKey}`,
+      "https://www.career.go.kr/inspct/api/psycho/interest/elementary/juniors?apikey=d6f3d4bf1ef57c0489ae941a704165e8",
       requestOptions
     )
       .then((response) => response.json())
